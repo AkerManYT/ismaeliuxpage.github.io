@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Estilos CSS personalizados para el formulario de suscripción */
+#formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #formulario input[type="text"],
+  #formulario input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #formulario button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #formulario button:hover {
+    background-color: #ffbf40;
+  }
+  
+  #formulario .mensaje {
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  
